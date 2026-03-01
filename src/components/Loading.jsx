@@ -11,7 +11,7 @@ export default function Loading() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="text-5xl font-bold font-display text-gradient"
         >
-          AF
+          AVRIXX
         </motion.div>
         
         {/* Loading Spinner */}
