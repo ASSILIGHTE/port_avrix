@@ -278,6 +278,7 @@ export default function Portfolio() {
               <div className="grid grid-cols-3 gap-6 mt-8 pt-8 border-t border-dark-700">
                 {[
                   { number: '5+', label: 'Projects' },
+                  { number: '', label: '' },
                   { number: '20+', label: 'Technologies' },
                 ].map((stat, index) => (
                   <div key={index} className="text-center">
