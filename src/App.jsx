@@ -233,14 +233,14 @@ export default function Portfolio() {
         {/* Scroll Indicator */}
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          animate={{ opacity:0 }}
           transition={{ delay: 1 }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
           <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-6 h-10 rounded-full border-2 border-slate-600 flex justify-center pt-2"
+            className="w-6 h-10 rounded-full border-2 border-slate-0 flex justify-center pt-2"
           >
             <div className="w-1 h-2 rounded-full bg-slate-0" />
           </motion.div>
