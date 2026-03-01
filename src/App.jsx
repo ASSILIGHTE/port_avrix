@@ -447,7 +447,7 @@ export default function Portfolio() {
 
                 <div className="space-y-4">
                   {[
-                    { icon: Mail, label: 'Email', value: 'aufariq@example.com' },
+                    { icon: Mail, label: 'Email', value: 'avrixx@gmail.com' },
                   ].map((item, index) => (
                     <motion.div
                       key={index}
