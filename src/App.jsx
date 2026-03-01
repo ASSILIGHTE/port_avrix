@@ -66,32 +66,31 @@ const projects = [
     title: "G-Predict (Future Salary Forecasting)",
     desc: "Machine Learning-based salary prediction system using official statistical data from BPS (Badan Pusat Statistik) to forecast future income trends and economic indicators.",
     tags: ["Machine Learning", "Python", "Data Analysis"],
-    liveUrl: "#",
+    
   },
   {
     title: "Oil Production Prediction System",
     desc: "Random Forest model with hyperparameter optimization for accurate daily production forecasting in industrial settings.",
     tags: ["Random Forest", "Python", "Forecasting"],
-    liveUrl: "#",
+    
   },
   {
     title: "Cyber Crime Reporting System (STTP)",
     desc: "Secure Laravel-based reporting system with digital evidence management and comprehensive audit trail.",
     tags: ["Laravel", "PHP", "Security"],
-    liveUrl: "#",
-    githubUrl: "#",
+
   },
   {
     title: "Sentiment Analysis on Game Reviews",
     desc: "SVM-based sentiment classification system for analyzing public perception and reviews.",
     tags: ["SVM", "NLP", "Python"],
-    liveUrl: "#",
+  
   },
   {
     title: "Roblox Game Development",
     desc: "Interactive multi-level game using structured Game Development Life Cycle methodology.",
     tags: ["Game Dev", "Lua", "Design"],
-    liveUrl: "#",
+  
   },
 ];
 
@@ -344,7 +343,7 @@ export default function Portfolio() {
               </div>
             </motion.div>
 
-            {/* Technical Skills */}
+            
             <motion.div variants={fadeInUp} className="mb-16">
               <h3 className="text-xl font-semibold mb-8 flex items-center gap-2">
                 <Brain className="text-primary-400" size={24} />
