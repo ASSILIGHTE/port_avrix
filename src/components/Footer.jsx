@@ -23,7 +23,7 @@ export default function Footer() {
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold font-display text-gradient inline-block mb-4"
             >
-              AF
+              AVRIXX
             </motion.a>
             <p className="text-slate-400 text-sm">
               Building data-driven systems using Machine Learning and modern web technologies.
