@@ -242,7 +242,7 @@ export default function Portfolio() {
             transition={{ duration: 1.5, repeat: Infinity }}
             className="w-6 h-10 rounded-full border-2 border-slate-600 flex justify-center pt-2"
           >
-            <div className="w-1 h-2 rounded-full bg-slate-600" />
+            <div className="w-1 h-2 rounded-full bg-slate-0" />
           </motion.div>
         </motion.div>
       </section>
